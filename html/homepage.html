@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="../css/homepage.css">
+    <title>Title</title>
+</head>
+<body>
+      <div class="wrap">
+          <div class="hom_top">
+               <div class="hom_log">
+                   <a href="#"><img src="../img/logo_1.png" alt=""></a>
+               </div>
+              <div class="hom_user">
+                  <p>SZ1049</p>
+                  <span><a href="#">个人用户</a></span>
+              </div>
+          </div>
+
+          <div class="hom_conten">
+              <div class="con_t">
+                  <p>账户共计应用</p>
+                  <p>近七日注册量</p>
+              </div>
+              <div class="con_b">
+                  <p>共<span>3</span>(款应用)</p>
+                  <div>
+                      <img src="../img/data_1.png" alt="">
+                  </div>
+              </div>
+          </div>
+
+          <div class="bottom">
+                  <ul class="bot_l">
+                      <li><img src="../img/icon_1.png" alt=""></li>
+                      <li><img src="../img/icon_2.png" alt=""></li>
+                      <li><img src="../img/icon_3.png" alt=""></li>
+                  </ul>
+
+                  <ul class="bot_r">
+                      <a href="icpac.html"><li>应用信息<p>账户共计3款应用 <img src="../img/icon_5.png" alt=""></p></li></a>
+                      <a href="register.html"><li>注册量统计<p>今日注册486人 <img src="../img/icon_5.png" alt=""></p></li></a>
+                      <a href="account.html"><li style="border-bottom: 0">账户信息<p><img src="../img/icon_5.png" alt=""></p></li></a>
+                  </ul>
+          </div>
+
+          <div class="footer">
+              <a href="system.html">
+                  <div class="fo1"><img src="../img/icon_4.png" alt=""></div>
+                  <div class="fo2">系统设置<p><img src="../img/icon_5.png" alt=""></p></div>
+              </a>
+
+          </div>
+
+
+      </div>
+</body>
+<script src="../js/jquery-3.1.1.js"></script>
+<script>
+    (function(win,doc){
+    //浏览器缩放时
+      win.onresize=function(){
+    change();
+    };
+    change();
+    function change(){
+        var oFs=doc.documentElement.clientWidth/(320/20);
+
+    //设置根目录字体大小
+    doc.documentElement.style.fontSize=oFs+'px';
+    }
+    })(window,document);
+</script>
+</html>

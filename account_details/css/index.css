@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+	font-size: 62.5%;
+}
+header{
+	width: 100%;
+	height: 8rem;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.lunbo{
+	width: 100%;
+}
+.lunbo img{
+	width: 100%;
+}
+.btnGroup{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 13rem;
+}
+.btnGroup li{
+	width: 20%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.btnGroup li a{
+	text-align: center;
+	font-size: 2rem;
+	color: black;
+}
+.btnGroup li a img{
+	width: 100%;
+}
+.tu{
+	width: 95%;
+	margin: 0 auto;
+}
+.tu img{
+	width: 100%;
+}
+.toutiao{
+	width: 100%;
+	height: 8rem;
+	line-height: 8rem;
+	font-size: 2rem;
+}
+.badian{
+	width: 100%;
+}
+.badian .swiper-slide{
+	width: 100%;
+}
+.badian .swiper-slide img{
+	width: 80%;
+}

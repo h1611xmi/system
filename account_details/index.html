@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/angular-1.4.6.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/angular-route.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="app.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/router.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/controller.js" type="text/javascript" charset="utf-8"></script>
+    <title></title>
+</head>
+<body ng-view ng-controller="Aaa">
+	<script type="text/javascript">
+        $(function(){
+            $('.bth_aTwo').click(function(){
+                $('.bigBoos').css("display","block");
+            })
+            $('.bigBoos>div>a').click(function(){
+                $('.bigBoos').css("display","none");
+            })
+        })
+	</script>
+</body>
+</html>

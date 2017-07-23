@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge chrome=1"/>
+	    <meta name="viewport" content="width=device-width initial-scale=1.0 minimum-scale=1.0 maximum-scale=1.0 user-scalable=no" />
+	    
+	    <meta name="format-detection" content="telephone=no email=no" />
+	    <meta name="apple-mobile-web-app-capable" content="yes"/>
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	    <link rel="stylesheet" type="text/css" href="../css/icpac2.css"/>
+	    <link rel="stylesheet" type="text/css" href="../font-awesome-4.7.0/css/font-awesome.min.css"/>
+		<title></title>
+	</head>
+	<script>
+	(function(win,doc){
+		win.onresize=function(){
+			change();	
+		
+		};
+		change();
+		function change(){
+			var oFs=doc.documentElement.clientWidth/(320/20);
+
+			doc.documentElement.style.fontSize=oFs+'px';	
+		}	
+	})(window,document);
+		</script>
+	<body>
+		<header class="header">
+			<ul>
+				<li><a href="icpac.html"><i class="fa fa-angle-left fa-2x" aris-hidden = "true"></i></a></li>
+				<li>应用信息</li>
+				<li class="list1"><a href="icpac1.html">新增应用</a></li>
+			</ul>
+		</header>
+		<div class="content">
+			<div class="content_1">
+				<img src="../img/add_1.png" />
+				<div class="happy">
+					<a href="#">开心消消乐<span>【签名:消消乐】</span></a>
+					<p>应用场景:APP、H5/web</p>
+				</div>
+			</div>
+			<div class="content_2">
+				<p>应用名称:<span>开心消消乐</span></p>
+				<p>通信秘钥:<span>xxxxxx</span></p>
+				<p>有效时间:<span>2016/7/1-2017/7/1</span></p>
+				<p class="app_p1">应用场景:<span>APP、H5/web</span></p>
+			    <div class="zhuce">
+			    	<p>闪注注册量:<span>151(人)</span></p>
+			    	<p>短信注册量:<span>89(人)</span></p>
+			    </div>
+			</div>
+			
+			
+			<div class="content_3">
+				<img src="../img/add_2.png" />
+				<div class="happy">
+					<a href="#">大话西游<span>【签名:大话西游】</span></a>
+					<p>应用场景:APP、H5/web</p>
+				</div>
+			</div>
+			<div class="content_3">
+				<img src="../img/add_3.png" />
+				<div class="happy">
+					<a href="#">王者荣耀<span>【签名:王者荣耀】</span></a>
+					<p>应用场景:APP、H5/web</p>
+				</div>
+			</div>
+			<br /><br />
+			
+		</div>
+	</body>
+</html>

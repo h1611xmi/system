@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none; }
+
+body, html {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+  body header, html header {
+    height: 8.25rem;
+    position: relative;
+    font-size: 0.8rem; }
+    body header img, html header img {
+      width: 100%;
+      height: 100%; }
+    body header a, html header a {
+      color: white;
+      position: absolute;
+      right: 1rem;
+      top: 0.5rem; }
+  body .centent, html .centent {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 3rem; }
+    body .centent ul li, html .centent ul li {
+      width: 90%;
+      padding: 0.6rem;
+      border-bottom: 1px solid #ccc;
+      font-size: 0.5rem; }
+      body .centent ul li input, html .centent ul li input {
+        height: 100%;
+        margin-left: 0.3rem; }
+  body input, html input {
+    border: 0;
+    outline: none;
+    font-size: 0.8rem; }
+  body .yh, html .yh {
+    color: #ccc;
+    font-size: 0.8rem; }
+  body .orange, html .orange {
+    color: orange;
+    font-size: 1.3rem; }
+  body .login, html .login {
+    width: 95%;
+    height: 2.25rem;
+    margin: 0 auto;
+    border-radius: 1rem 1rem 1rem 1rem;
+    background: #FFD974;
+    text-align: center;
+    line-height: 2.25rem;
+    margin-top: 1.25rem;
+    color: white; }
+    body .login a, html .login a {
+      color: white;
+      display: block;
+      width: 100%; }
+  body .MMheader, html .MMheader {
+    width: 95%;
+    height: 3.75rem;
+    display: flex;
+    margin: 0 auto;
+    align-items: center; }
+    body .MMheader .a, html .MMheader .a {
+      color: #c0c0c0; }
+    body .MMheader p, html .MMheader p {
+      width: 80%;
+      text-align: center;
+      line-height: 3.75rem; }
+  body #p, html #p {
+    width: 95%;
+    margin: 0 auto;
+    height: 3.75rem;
+    line-height: 3.75rem; }
+  body .MMhao, html .MMhao {
+    width: 85%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border-bottom: #FFE497 solid 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    body .MMhao input, html .MMhao input {
+      height: 100%; }
+    body .MMhao p, html .MMhao p {
+      width: 1.3rem;
+      height: 1.3rem;
+      border: 2px solid #FE1C1B;
+      border-radius: 50%;
+      font-size: 0.5rem;
+      text-align: center;
+      line-height: 1.3rem;
+      color: #FE1C1B; }
+    body .MMhao .XS, html .MMhao .XS {
+      display: none; }
+  body .orange1, html .orange1 {
+    font-size: 1rem;
+    color: orange; }
+  body .alert, html .alert {
+    width: 11.25rem;
+    height: 6.25rem;
+    border: 1px solid #ccc;
+    background: white;
+    font-size: 0.75rem;
+    color: #999;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 8.62rem;
+    left: 2.5rem;
+    display: none; }
+    body .alert p:first-child, html .alert p:first-child {
+      width: 100%;
+      height: 4.5rem;
+      line-height: 4.5rem; }
+    body .alert p:last-child, html .alert p:last-child {
+      height: 1.75rem;
+      line-height: 1.7rem;
+      background: #FFD974;
+      text-align: center;
+      color: white; }
+      body .alert p:last-child a, html .alert p:last-child a {
+        width: 100%;
+        color: white; }
+    body .alert .p11, html .alert .p11 {
+      width: 100%;
+      height: 4.5rem;
+      line-height: 1.5rem; }
+      body .alert .p11 .p11_p2, html .alert .p11 .p11_p2 {
+        background: white;
+        color: #ccc; }
+    body .alert .p12, html .alert .p12 {
+      height: 1.75rem;
+      line-height: 1.7rem;
+      background: #FFD974;
+      display: flex;
+      justify-content: space-around; }
+      body .alert .p12 a, html .alert .p12 a {
+        width: 50%;
+        border-right: 1px solid white;
+        text-align: center;
+        color: white; }
+  body .wang, html .wang {
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0.2rem; }
+    body .wang a, html .wang a {
+      color: orange; }
+  body .bodys, html .bodys {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 2; }
+
+/*# sourceMappingURL=index.css.map */

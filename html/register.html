@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="../css/homepage.css">
+
+    <title>Title</title>
+</head>
+<body>
+<div class="wrap">
+      <div class="reg_top">
+          <div class="top_1">
+              <a href="homepage.html"><img src="../img/icon_6.png" alt="" class="img1"></a>
+             <a id="reg_t"> <p>注册量统计 <img src="../img/icon_7.png" alt=""></p></a>
+          </div>
+          <div class="top_2"><img src="../img/data_2.png" alt=""></div>
+      </div>
+      <div class="reg_cont">
+          <ul>
+              <li>今日注册量</li>
+              <li>一周注册量</li>
+              <li>一个月注册量</li>
+          </ul>
+      </div>
+      <div class="reg_main">
+          <div class="main_1">
+              <h2>15802012356</h2>
+              <div>
+                  <p>天天消消乐</p>
+                  <p>APP场景</p>
+                  <p>短信注册</p>
+              </div>
+              <p>注册时间:<span>2017/7/20 20:00</span></p>
+          </div>
+          <div class="main_1">
+              <h2>15802012356</h2>
+              <div>
+                  <p>天天消消乐</p>
+                  <p>APP场景</p>
+                  <p>短信注册</p>
+              </div>
+              <p>注册时间:<span>2017/7/20 20:00</span></p>
+          </div>
+          <div class="main_1">
+              <h2>15802012356</h2>
+              <div>
+                  <p>天天消消乐</p>
+                  <p>APP场景</p>
+                  <p>短信注册</p>
+              </div>
+              <p>注册时间:<span>2017/7/20 20:00</span></p>
+          </div>
+          <div class="main_1">
+              <h2>15802012356</h2>
+              <div>
+                  <p>天天消消乐</p>
+                  <p>APP场景</p>
+                  <p>短信注册</p>
+              </div>
+              <p>注册时间:<span>2017/7/20 20:00</span></p>
+          </div>
+          <div class="main_1">
+              <h2>15802012356</h2>
+              <div>
+                  <p>天天消消乐</p>
+                  <p>APP场景</p>
+                  <p>短信注册</p>
+              </div>
+              <p>注册时间:<span>2017/7/20 20:00</span></p>
+          </div>
+      </div>
+</div>
+<div class="zz">
+
+</div>
+<div class="reg_drop">
+    <div class="con_1">
+        <div>全部</div>
+    </div>
+    <div class="con_2"><div></div><p>应用场景</p><div></div></div>
+    <div class="con_1">
+        <div>APP</div><div>H5/web</div>
+    </div>
+    <div class="con_2"><div></div><p>注册方式</p><div></div></div>
+    <div class="con_1">
+        <div>闪注</div><div>短信</div>
+    </div>
+</div>
+
+</body>
+<script src="../js/jquery-3.1.1.js"></script>
+<script src="../js/jquery-3.1.1.js"></script>
+<script>
+    (function(win,doc){
+        //浏览器缩放时
+        win.onresize=function(){
+            change();
+        };
+        change();
+        function change(){
+            var oFs=doc.documentElement.clientWidth/(320/20);
+
+            //设置根目录字体大小
+            doc.documentElement.style.fontSize=oFs+'px';
+        }
+    })(window,document);
+    $(function () {
+        $("#reg_t").click(function () {
+            $(".zz").toggle()
+            $(".reg_drop").toggle()
+        })
+        $(".zz").click(function () {
+            $(".zz").hide()
+            $(".reg_drop").hide()
+        })
+    })
+</script>
+
+</html>

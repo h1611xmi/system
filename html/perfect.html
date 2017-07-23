@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/perfect.css"/>
+		<link rel="stylesheet" type="text/css" href="../font-awesome-4.7.0/css/font-awesome.css"/>
+		<script src="../js/rem.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header id="header">
+			<ul class="header_ul1">
+				<li><a href="system.html"><i class="fa fa-angle-left fa-3x" aris-hidden = "true"></i></a></li>
+				<li class="code">官方二维码</li>
+			</ul>
+			<ul class="header_ul2">
+				<li>
+					<img src="../img/logo_2.png"/>
+					<div id="">
+						<p>SZ1049</p>
+						<p><a href="#">个人用户</a></p>
+					</div>
+					
+				</li>
+				<li>
+					<p><a href="#">未认证</a></p>
+				</li>
+			</ul>
+		</header>
+		<div class="nav_content">
+			<p>完善个人资料可享受更多闪注优惠</p>
+		</div>
+		<div class="list_box">
+			<ul>
+				<li><p>Email</p><p><a href="" class="list_li1">未添加邮箱<i class="fa fa-angle-right fa-2x"></i></a></p></li>
+				<li><p>联系人</p><p><a href="">崔小小<i class="fa fa-angle-right fa-2x"></i></a></p></li>
+				<li><p>手机号码</p><p><a href="">18652412512<i class="fa fa-angle-right fa-2x"></i></a></p></li>
+				<li><p>身份证正面</p><p><a href="" class="list_li1">未上传身份证信息<i class="fa fa-angle-right fa-2x"></i></a></p></li>
+				<li><p>身份证背面</p><p><a href="" class="list_li1">未上传身份证信息<i class="fa fa-angle-right fa-2x"></i></a></p></li>
+			</ul>
+		</div>
+		<div class="btn_box">
+			<div  class="btn_content">
+				<a href="#" class="btn_a">提交审核</a>
+			</div>
+		</div>
+		
+		<div class="status_box">
+			<ul class="status_ul1">
+				<li><a href="">拍照</a></li>
+				<li><a href="">从相册中选择</a></li>
+				<li><a href="">取消</a></li>
+			</ul>
+		</div>
+	</body>
+	<script src="../js/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(".btn_a").click(function(){
+			$(".status_box").show();
+			
+		})
+		$(".status_box").click(function(){
+			$(".status_box").hide();
+		})
+	</script>
+</html>

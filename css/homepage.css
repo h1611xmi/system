@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  position: relative;
+  width: 100%;
+  font-size: 20px;
+  background: #f5f5f5; }
+
+a {
+  text-decoration: none;
+  color: #666666; }
+
+.wrap {
+  width: 100%;
+  height: 100%; }
+
+.hom_top {
+  width: 100%;
+  height: 9.85rem;
+  background: #ffab25; }
+  .hom_top .hom_log {
+    width: 4.15rem;
+    height: 4.15rem;
+    margin: 0 auto; }
+    .hom_top .hom_log img {
+      width: 100%;
+      margin-top: 2.15rem; }
+  .hom_top .hom_user {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+    color: white; }
+    .hom_top .hom_user p {
+      font-size: 0.4rem;
+      height: 0.85rem;
+      line-height: 0.85rem; }
+    .hom_top .hom_user span {
+      width: 2.7rem;
+      height: 0.85rem;
+      background: #ffc801;
+      margin-left: 0.125rem;
+      text-align: center;
+      line-height: 0.85rem;
+      border-radius: 0.125rem; }
+      .hom_top .hom_user span a {
+        font-size: 0.5rem;
+        color: white; }
+
+.hom_conten {
+  font-size: 0.5rem;
+  color: #c4c4c4;
+  height: 4.75rem;
+  background: white; }
+  .hom_conten .con_t {
+    padding-top: 0.85rem;
+    margin-left: 0.7rem;
+    display: flex; }
+    .hom_conten .con_t p {
+      width: 50%; }
+  .hom_conten .con_b {
+    margin-top: 0.45rem;
+    margin-left: 0.7rem;
+    display: flex; }
+    .hom_conten .con_b p {
+      width: 50%; }
+      .hom_conten .con_b p span {
+        font-size: 1.5rem;
+        color: #f95d05; }
+    .hom_conten .con_b div {
+      width: 50%; }
+      .hom_conten .con_b div img {
+        width: 90%; }
+
+.bottom {
+  height: 5.65rem;
+  background: white;
+  margin-top: 0.7rem;
+  display: flex; }
+  .bottom ul {
+    list-style: none; }
+  .bottom .bot_l {
+    width: 2.5rem;
+    height: 5.65rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    .bottom .bot_l li {
+      width: 2.5rem;
+      height: calc(100%/3);
+      text-align: center; }
+      .bottom .bot_l li img {
+        margin-top: 0.45rem;
+        width: 1rem; }
+  .bottom .bot_r {
+    width: 13.4rem;
+    height: 5.65rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    .bottom .bot_r a {
+      border-bottom: 0.025rem solid #f5f5f5;
+      height: calc(100%/3); }
+    .bottom .bot_r li {
+      width: 13.4rem;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.75rem; }
+      .bottom .bot_r li p {
+        margin-right: 0.6rem;
+        font-size: 0.55rem;
+        color: #f96010; }
+      .bottom .bot_r li img {
+        width: 0.35rem; }
+
+.footer {
+  margin-top: 0.7rem;
+  height: 1.85rem;
+  background: white; }
+  .footer a {
+    display: flex; }
+    .footer a .fo1 {
+      width: 2.5rem;
+      height: 1.85rem;
+      text-align: center; }
+      .footer a .fo1 img {
+        margin-top: 0.45rem;
+        width: 1rem; }
+    .footer a .fo2 {
+      width: 13.4rem;
+      display: flex;
+      height: 1.85rem;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.75rem; }
+      .footer a .fo2 p {
+        margin-right: 0.6rem;
+        font-size: 0.55rem;
+        color: #f96010; }
+      .footer a .fo2 img {
+        width: 0.35rem; }
+
+.reg_top {
+  width: 100%;
+  height: 9.85rem;
+  background: #fa5a2a; }
+  .reg_top .top_1 {
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    height: 1.9rem;
+    display: flex;
+    align-items: center;
+    background: #fa5a2a; }
+    .reg_top .top_1 .img1 {
+      width: 0.5rem;
+      height: 0.75rem;
+      margin-left: 0.7rem; }
+    .reg_top .top_1 p {
+      margin-left: 4.75rem;
+      font-size: 0.75rem;
+      color: white; }
+      .reg_top .top_1 p img {
+        width: 0.4rem; }
+  .reg_top .top_2 {
+    width: 100%;
+    text-align: center; }
+    .reg_top .top_2 img {
+      margin-top: 2.5rem;
+      width: 7.75rem; }
+
+.reg_cont {
+  height: 2rem;
+  background: #ffb900; }
+  .reg_cont ul {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around; }
+    .reg_cont ul li {
+      height: 2rem;
+      font-size: 0.6rem;
+      line-height: 2rem;
+      color: white; }
+
+.reg_main {
+  background: white; }
+  .reg_main .main_1 {
+    height: 4.45rem;
+    padding-left: 0.75rem;
+    border-bottom: 0.025rem solid #d9d9d9; }
+    .reg_main .main_1 h2 {
+      font-size: 0.65rem;
+      padding-top: 0.9rem;
+      line-height: 0.65rem; }
+    .reg_main .main_1 div {
+      height: 1.65rem;
+      display: flex;
+      align-items: center; }
+      .reg_main .main_1 div p {
+        height: 0.8rem;
+        border: 0.025rem solid #ffca78;
+        border-radius: 0.5rem;
+        font-size: 0.45rem;
+        color: #ffca78;
+        line-height: 0.8rem;
+        padding-left: 0.15rem;
+        padding-right: 0.15rem; }
+    .reg_main .main_1 p {
+      font-size: 0.45rem;
+      color: #888; }
+
+.zz {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: black;
+  top: 0;
+  opacity: 0.5;
+  display: none; }
+
+.reg_drop {
+  width: 100%;
+  position: fixed;
+  top: 1.9rem;
+  height: 12.5rem;
+  background: white;
+  display: none; }
+  .reg_drop .con_1 {
+    margin-top: 0.4rem;
+    height: 3rem;
+    display: flex; }
+    .reg_drop .con_1 div {
+      width: 4.55rem;
+      height: 1.75rem;
+      background: #ffad2d;
+      border-radius: 0.2rem;
+      font-size: 0.75rem;
+      color: white;
+      text-align: center;
+      line-height: 1.75rem;
+      margin-left: 0.75rem;
+      margin-top: 0.9rem; }
+  .reg_drop .con_2 {
+    width: 100%;
+    height: 0.6rem;
+    display: flex;
+    align-items: center;
+    margin-left: 0.7rem;
+    font-size: 0.5rem; }
+    .reg_drop .con_2 div {
+      width: 6.15rem;
+      height: 1px;
+      background: #e0e0e0; }
+    .reg_drop .con_2 p {
+      color: #e0e0e0;
+      width: 2.5rem;
+      text-align: center; }
+
+/*# sourceMappingURL=homepage.css.map */

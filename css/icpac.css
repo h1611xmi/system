@@ -1,0 +1,17 @@
+* { margin: 0; padding: 0; box-sizing: border-box; list-style: none; }
+
+a { text-decoration: none; }
+
+.header { width: 100%; background: #FFAC2E; height: 1.9rem; position: fixed; top: 0; padding: 0 0.6rem; }
+.header ul { display: flex; width: 100%; -webkit-justify-content: space-between; -webkit-align-items: center; }
+.header ul li { padding: 0.20rem; font-size: 0.75rem; color: white; }
+.header ul li i { color: white; }
+.header ul li:nth-of-type(3) { font-size: 0.7rem; }
+
+.content { margin-top: 1.9rem; width: 100%; background: white; text-align: center; }
+.content .conment_1 { margin-top: 3.75rem; width: 100%; text-align: center; }
+.content .conment_1 img { width: 7.75rem; }
+.content .conment_1 p { margin-top: 0.7rem; font-size: 0.6rem; color: #9C9A9B; }
+.content .conment_1 p a { color: #49B5E3; }
+
+/*# sourceMappingURL=icpac.css.map */

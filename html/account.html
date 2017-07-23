@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>账户信息</title>
+		<!--优先使用IE最新版本和Chrome-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chome=1" />
+		<!--视口--设备宽度--初始缩放比例--最小缩放比例--最大缩放比例--用户缩放-->
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<!--禁止浏览器自动的识别-电话号码-email--->
+		<meta name="format-detection" content="telephone=no,email=no" />
+		<!--是否启用Web全屏-->
+		<meta name="apple-mobile-web-app-capable" content='yes' />
+		<meta name="apple-mobile-web-status-bar-style" content="normal|black|black-translucent">
+		<!--设置苹果工具栏颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content='black' />
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/account.css" />
+		<link rel="stylesheet" type="text/css" href="../css/tianmao/iconfont.css" />
+	</head>
+
+	<body>
+		<!--头部、-->
+		<header>
+			<div class="header">
+				<div class="header-left">
+					<span class="iconfont icon-fanhui1"></span>
+				</div>
+
+				<div class="header-middle">
+					账户信息<span class="iconfont icon-sanjiao1"></span>
+				</div>
+
+				<div class="header-right"></div>
+
+			</div>
+
+		</header>
+		<main style="position: relative;">
+			<!--内容1-->
+			<div class="content1">
+				<div class="content1-left">
+					<p>闪注账户</p>
+					<p><span>剩余量：</span><span>9500</span><span>条</span></p>
+				</div>
+				<div class="content1-right">
+					<p>短信账户</p>
+					<p><span>剩余量：</span><span>865</span><span>条</span></p>
+				</div>
+			</div>
+
+			<!--我的充值-->
+			<div class="content5">
+				<p><img src="../img/未标题-1.png"/>我的充值</p>
+				<p>
+					<a href="cost.html">查看明细<span class="iconfont icon-qiehuanqiyou"></span></a>
+				</p>
+			</div>
+
+			<div class="content6">
+				<div class="content6-left">
+					<p>闪注充值量</p>
+					<p>20000<span>条</span></p>
+				</div>
+				<div class="content6-right">
+					<p>短信充值量</p>
+					<p>5000<span>条</span></p>
+				</div>
+			</div>
+
+			<div class="content5">
+				<p><img src="../img/未标题-2.png"/>我的消费</p>
+				<p>
+					<a href="consume.html">查看明细<span class="iconfont icon-qiehuanqiyou"></span></a>
+				</p>
+			</div>
+
+			<div class="content6">
+				<div class="content6-left">
+					<p>闪注消费量</p>
+					<p>16825<span>条</span></p>
+				</div>
+				<div class="content6-right">
+					<p>短信消费量</p>
+					<p>1548<span>条</span></p>
+				</div>
+			</div>
+
+			<!--灰色-->
+			<div class="hover_div">
+				<!--内容1-->
+				<div class="content1">
+					<span>全部账户</span>
+				</div>
+				<!--内容2-->
+				<!--应用-->
+				<div class="content2">
+					<ul>
+						<li></li>
+						<li>应用</li>
+						<li></li>
+					</ul>
+				</div>
+
+				<div class="content3">
+					<ul>
+						<li>天天消消乐</li>
+						<li>大话西游</li>
+						<li class="content3_li">王者荣耀</li>
+					</ul>
+				</div>
+
+				<!--灰色部分-->
+				<div class="content4">
+					<div class="content4-left">
+						<p>闪注充值量</p>
+						<p>20000<span>条</span></p>
+					</div>
+					<div class="content4-right">
+						<p>短信充值量</p>
+						<p>5000<span>条</span></p>
+					</div>
+				</div>
+				<!--我的消费-->
+				<div class="content5">
+					<p>我的消费</p>
+					<p>
+						<a href="consume.html">查看明细<span class="iconfont icon-qiehuanqiyou"></span></a>
+					</p>
+				</div>
+
+				<div class="content6">
+					<div class="content6-left">
+						<p>闪注消费量</p>
+						<p>16825<span>条</span></p>
+					</div>
+					<div class="content6-right">
+						<p>短信充值量</p>
+						<p>1548<span>条</span></p>
+					</div>
+				</div>
+				<div class="huis"></div>
+			</div>
+
+		</main>
+	</body>
+	<script src="../js/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/fontSize.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(".header-middle").click(function() {
+			$(".hover_div").toggle()
+		})
+	</script>
+
+</html>

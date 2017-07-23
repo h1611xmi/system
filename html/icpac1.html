@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge chrome=1"/>
+	    <meta name="viewport" content="width=device-width initial-scale=1.0 minimum-scale=1.0 maximum-scale=1.0 user-scalable=no" />
+	    
+	    <meta name="format-detection" content="telephone=no email=no" />
+	    <meta name="apple-mobile-web-app-capable" content="yes"/>
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	    <link rel="stylesheet" type="text/css" href="../font-awesome-4.7.0/css/font-awesome.min.css"/>
+	    <link rel="stylesheet" type="text/css" href="../css/icpac1.css"/>
+		<title></title>
+	</head>
+	<script>
+	(function(win,doc){
+		win.onresize=function(){
+			change();	
+		
+		};
+		change();
+		function change(){
+			var oFs=doc.documentElement.clientWidth/(320/20);
+
+			doc.documentElement.style.fontSize=oFs+'px';	
+		}	
+	})(window,document);
+		</script>
+	<body>
+			<header class="header">
+			<ul>
+				<li><a href="icpac2.html"><i class="fa fa-angle-left fa-2x" aris-hidden = "true"></i></a></li>
+				<li>新增应用</li>
+				<li></li>
+				
+			</ul>
+		</header>
+		<div class="content">
+			<div class="content_1">
+				<img src="../img/scope_1.png" />
+			</div>
+			<div class="content_2">
+				<ul>
+					<li class="list1">应用信息</li>
+					<li><span><i>*</i>接口密码</span><a href="#">SDK或者接口密码&nbsp;<i class="fa fa-angle-right fa-1x" aris-hidden = "true"></i></a></li>
+					<li><span><i>*</i>通信秘钥</span><a href="#">SDK或者接口通信加密秘钥&nbsp;<i class="fa fa-angle-right fa-1x" aris-hidden = "true"></i></a></li>
+				</ul>
+				
+				<ul>
+					<li class="list1">APP信息</li>
+					<li><span>名称</span><a href="#">APP的名称&nbsp;<i class="fa fa-angle-right fa-1x" aris-hidden = "true"></i></a></li>
+					<li><span>包名</span><a href="#">APP的真实包名&nbsp;<i class="fa fa-angle-right fa-1x" aris-hidden = "true"></i></a></li>
+					<li><span>LOGO文件</span><a href="#">图片类型:jpg、png大小:1M&nbsp;<i class="fa fa-angle-right fa-1x" aris-hidden = "true"></i></a></li>
+					<li><span>APP截图</span><a href="#">图片类型:jpg、png大小:1M&nbsp;<i class="fa fa-angle-right fa-1x" aris-hidden = "true"></i></a></li>
+				</ul>
+				
+				<ul>
+					<li class="list1"><p>H5/web信息<span>用户注册时发送的短信内容(此内容为前缀,后跟校验证)</span></p></li>
+					<li><span>短信内容</span><a href="#">长度不得超过20个字&nbsp;<i class="fa fa-angle-right fa-1x" aris-hidden = "true"></i></a></li>
+					
+				</ul>
+			</div>
+			<div class="content_3">
+				<button><a href="icpac.html">提交</a></button>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  background: #f5f5f5; }
+
+.box {
+  height: 100%;
+  position: relative; }
+
+.nav {
+  height: 1.9rem; }
+  .nav a {
+    height: 1.9rem;
+    background: #ffac2c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0.85rem;
+    box-sizing: border-box;
+    font-size: 0.75rem;
+    color: #FFFFFF; }
+    .nav a .ff a {
+      color: #FFFFFF; }
+    .nav a .pas {
+      width: 14.95rem;
+      text-align: center; }
+
+.modify {
+  height: 1.5rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  font-size: 0.55rem;
+  border-bottom: 1px solid #eaeaea;
+  color: #818181; }
+
+.modify2 {
+  height: 4.4rem;
+  font-size: 0.55rem;
+  border-bottom: 1px solid #eaeaea;
+  color: #818181;
+  text-align: center; }
+  .modify2 .sent {
+    margin-top: 0.35rem; }
+  .modify2 .phone {
+    margin-top: 0.6rem;
+    color: #343233;
+    font-size: 1rem; }
+
+.ypass {
+  height: 1.9rem;
+  border-bottom: 1px solid #eaeaea; }
+  .ypass a {
+    height: 1.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0.85rem;
+    box-sizing: border-box;
+    font-size: 0.75rem;
+    background: #FFFFFF;
+    color: #565656; }
+    .ypass a .fa {
+      color: #dddddd; }
+
+.ypass2 {
+  height: 1.9rem;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.85rem;
+  box-sizing: border-box;
+  font-size: 0.75rem;
+  background: #FFFFFF;
+  color: #565656; }
+  .ypass2 .fa-lock {
+    color: #dddddd; }
+  .ypass2 .fa-eye-slash {
+    color: red; }
+  .ypass2 .fa-eye {
+    display: none; }
+  .ypass2 .passw {
+    width: 85%;
+    font-size: 0.55rem; }
+  .ypass2 .passw2 {
+    width: 93%;
+    font-size: 0.55rem; }
+
+.ypass22 .passw {
+  width: 61%;
+  font-size: 0.55rem;
+  margin-left: 0.4rem; }
+.ypass22 .sent {
+  width: 4.5rem;
+  height: 1.25rem; }
+  .ypass22 .sent #sent {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #fa5a2a;
+    font-size: 0.6rem;
+    color: #fffeff;
+    text-align: center;
+    line-height: 1.25rem;
+    border-radius: 5px; }
+  .ypass22 .sent .miao {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: #fa5a2a;
+    font-size: 0.6rem;
+    color: #fffeff;
+    text-align: center;
+    line-height: 1.25rem;
+    border-radius: 5px; }
+
+.determine {
+  width: 14.95rem;
+  height: 1.55rem;
+  background: #fed555;
+  font-size: 0.55rem;
+  margin: 0.9rem auto;
+  text-align: center;
+  line-height: 1.55rem;
+  border-radius: 5px; }
+  .determine a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF; }
+
+.box2 {
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  display: none; }
+  .box2 .success {
+    width: 10.3rem;
+    height: 4.15rem;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 10rem 0 0 3rem;
+    text-align: center;
+    line-height: 4.15rem;
+    font-size: 0.8rem; }
+
+/*# sourceMappingURL=modify.css.map */
